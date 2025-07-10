@@ -13,6 +13,8 @@ Modern Chrome Extension for Jira - Display your assigned issues in a beautiful f
 - **🔐 Privacy-First**: No data collection, works entirely within your Jira instance
 
 ## 🖼️ Screenshots
+![image](https://github.com/user-attachments/assets/d3e09bea-edaf-4398-9a20-51f431af5ee0)
+![image](https://github.com/user-attachments/assets/46825583-ac78-47de-b785-f3eceea86ffb)
 
 ### Floating Button
 The floating button appears in the bottom corner of your Jira pages, showing a quick count of your assigned issues.
