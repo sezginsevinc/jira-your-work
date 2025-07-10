@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🚀 Jira Floating Button</h1>
+      <p>Your Work takibi için floating buton kontrolü</p>
+    </div>
+
+    <div class="toggle-section">
+      <div class="toggle-wrapper">
+        <div class="toggle-info">
+          <div class="toggle-title">Script Durumu</div>
+          <div class="toggle-description">Floating button'u aktif/pasif yapın</div>
+        </div>
+        <label class="toggle-switch">
+          <input type="checkbox" id="toggle-script">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="status-indicator" id="status-indicator">
+        <span id="status-text">Yükleniyor...</span>
+      </div>
+    </div>
+
+    <div class="position-section">
+      <div class="position-header">
+        <div class="position-title">📍 Konum Seçimi</div>
+        <div class="position-description">Floating button'un ekrandaki konumunu seçin</div>
+      </div>
+
+      <div class="position-options">
+        <label class="position-option">
+          <input type="radio" name="position" value="left" id="position-left">
+          <div class="position-card">
+            <div class="position-icon">⬅️</div>
+            <div class="position-text">Sol Alt</div>
+          </div>
+        </label>
+
+        <label class="position-option">
+          <input type="radio" name="position" value="right" id="position-right">
+          <div class="position-card">
+            <div class="position-icon">➡️</div>
+            <div class="position-text">Sağ Alt</div>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <div class="footer">
+      Jira sayfalarında sol altta görünecek ⚡
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
